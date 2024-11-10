@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Collection Runeterra</title>
+    <link rel="stylesheet" href="style2.css">
+    <style>
+        .cards {
+            display: flex;
+            justify-content: center;
+            gap: 60px;
+            margin-top: 50px;
+        }
+
+        body {
+            background-image: url('image/targon.webp');
+        }
+
+        .image-container {
+            width: 174px;
+            /* Largeur du cadre */
+            height: 300px;
+            /* Hauteur du cadre */
+        }
+
+        .header-sticky {
+            position: sticky;
+            top: 0;
+            z-index: 9000;
+            background-image: url('image/targon.webp');
+            margin: 0;
+            padding: 40px 20px;
+            /* Remplacez par le chemin de votre image */
+            background-size: cover;
+            /* Assure que l'image couvre toute la page */
+            background-position: center;
+            /* Centre l'image */
+            background-repeat: no-repeat;
+            /* Évite que l'image se répète */
+            background-attachment: fixed;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <!-- En-tête -->
+        <header class="header-sticky">
+            <div class="logo">Runeterra Collection</div>
+            <div class="menu">
+                <a href="page_principale.html">Acceuil</a>
+                <a href="#apropos">À propos</a>
+                <a href="#collection">Collection</a>
+                <a href="#nous-contacter">Nous contacter</a>
+            </div>
+            <!-- Barre de recherche -->
+            <div class="search-bar">
+                <input type="text" placeholder="BARRE DE RECHERCHE">
+            </div>
+
+
+        </header>
+        <!-- Section des cartes -->
+        <div class="cards">
+
+            <div class="image-container">
+                <div class="div1">
+                    <img src="image/aphelios.png">
+                </div>
+            </div>
+
+            <div class="image-container">
+                <div class="div1">
+                    <img src="image/aurelion_sol.png">
+                </div>
+            </div>
+
+            <div class="image-container">
+                <div class="div1">
+                    <img src="image/diana.png">
+                </div>
+            </div>
+
+            <div class="image-container">
+                <div class="div1">
+                    <img src="image/leona.png">
+                </div>
+            </div>
+
+            <div class="image-container">
+                <div class="div1">
+                    <img src="image/pantheon.png">
+                </div>
+            </div>
+
+        </div>
+        <div class="cards">
+            <div class="image-container">
+                <div class="div1">
+                    <img src="image/soraka.png">
+                </div>
+            </div>
+
+            <div class="image-container">
+                <div class="div1">
+                    <img src="image/taric.png">
+                </div>
+            </div>
+
+            <div class="image-container">
+                <div class="div1">
+                    <img src="image/zoe.png">
+                </div>
+            </div> 
+
+        </div>
+    </div>
+</body>
+
+</html>
